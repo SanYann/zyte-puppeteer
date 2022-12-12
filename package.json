@@ -1,0 +1,29 @@
+{
+  "name": "zyte-puppeteer",
+  "version": "1.0.0",
+  "description": "Configuration zyte working with puppeteer in aws lambda container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanYann/zyte-puppeteer.git"
+  },
+  "author": "Yann ALEMAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanYann/zyte-puppeteer/issues"
+  },
+  "homepage": "https://github.com/SanYann/zyte-puppeteer#readme",
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^16.0.3",
+    "promisify-wait": "^1.1.0",
+    "puppeteer": "^19.3.0",
+    "puppeteer-extra": "^3.3.4",
+    "puppeteer-extra-plugin-adblocker": "^2.13.5",
+    "puppeteer-extra-plugin-stealth": "^2.11.1",
+    "zyte-smartproxy-plugin": "^1.0.8"
+  }
+}
